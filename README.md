@@ -46,5 +46,5 @@ Deep Learning Models,
 Location-based Price Visualization
 
 
-Author
+**Author**
 AI/ML Developer Project for learning and real-world implementation.
