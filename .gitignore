@@ -1,0 +1,107 @@
+# =========================
+# Python Cache Files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# =========================
+# Streamlit Cache
+# =========================
+.streamlit/cache/
+
+# =========================
+# Machine Learning Artifacts
+# =========================
+*.pkl
+*.pickle
+*.joblib
+*.sav
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# =========================
+# Logs and Temporary Files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Test and Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# IDE / Editor Settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Large Data Files (Optional)
+# Uncomment if you do not want to upload datasets
+# =========================
+# data/
+# *.csv
+# *.xlsx
+# *.parquet
+
+# =========================
+# Local Databases
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# Miscellaneous
+# =========================
+*.bak
+*.swp
